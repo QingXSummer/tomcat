@@ -300,17 +300,17 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
             } else if(opt.equals("10")) {
                 settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_10);
             } else if(opt.equals("11")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_11);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("12")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_12);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("13")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_13);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("14")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_14);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("15")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_15);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("16")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_16);
+                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("17")) {
                 // Constant not available in latest ECJ version shipped with
                 // Tomcat. May be supported in a snapshot build.
@@ -357,23 +357,23 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
                 settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_10);
                 settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_10);
             } else if(opt.equals("11")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_11);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_11);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("12")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_12);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_12);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("13")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_13);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_13);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("14")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_14);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_14);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("15")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_15);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_15);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("16")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_16);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_16);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_1_8);
+                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_1_8);
             } else if(opt.equals("17")) {
                 // Constant not available in latest ECJ version shipped with
                 // Tomcat. May be supported in a snapshot build.
